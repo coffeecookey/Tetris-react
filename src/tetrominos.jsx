@@ -68,5 +68,11 @@ export const TETROMINOS = {
 // This is the function that will generate random tetrominos 
 export const RandomTetrominos = () =>{
     const Tetrominos = 'IJLOSTZ';
-    const randTetromino = Tetrominos[Math.floor(Math.random() * Tetrominos.length)]
+    // Math.random() is a method that returns a random number between 0 (inclusive) and 1 but never 1.
+    const randTetromino = Tetrominos[Math.floor(Math.random() * Tetrominos.length)];
+
+    //the goal is to pick and return a random letter from the string
+    return Tetrominos[randTetromino];
+
+
 }
