@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import bg from "../../../src/assets/bg2.jpeg"
+import bg from "../../../src/assets/vg6.gif"
 
 export const StyledTetrisWrapper = styled.div `
     width: 100vw;
@@ -21,6 +21,6 @@ export const StyledTetris = styled.div `
     width: 100%;
     max-width:200px;
     display: block;
-    padding: 0 20px
+    padding: 0 20px;
     }
 `;

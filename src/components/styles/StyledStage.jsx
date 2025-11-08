@@ -17,7 +17,7 @@ export const StyledStage = styled.div `
     border: 2px solid #333;
     width: 100%;
     max-width: 25vw;
-    background: #111;
+    background: #262626ff;
 `;
 
 // grid-template-rows defines num of rows and size of each row.
