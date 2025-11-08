@@ -74,5 +74,4 @@ export const RandomTetrominos = () =>{
     //the goal is to pick and return a random letter from the string
     return Tetrominos[randTetromino];
 
-
 }
