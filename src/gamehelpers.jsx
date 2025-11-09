@@ -17,3 +17,5 @@ export const createStage = () =>
         new Array(STAGE_WIDTH).fill([0, 'clear'])
     )
 
+// [0, 'clear'] indicates that the stage is clear and nothing is on it
+// once the tetrominos collide, it will change to merge and all the merged tetrominos will be retained

@@ -20,10 +20,11 @@ const Tetris = () =>{
                         <Display text="Score"/>
                         <Display text="Rows"/>
                         <Display text="Level"/>
+                        <Startbutton/>
                     </div>
                 </aside>
 
-                <Startbutton/>
+                
             </StyledTetris>
         </StyledTetrisWrapper>
     )
