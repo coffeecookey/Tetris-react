@@ -72,6 +72,6 @@ export const RandomTetrominos = () =>{
     const randTetromino = Tetrominos[Math.floor(Math.random() * Tetrominos.length)];
 
     //the goal is to pick and return a random letter from the string
-    return Tetrominos[randTetromino];
+    return TETROMINOS[randTetromino];
 
 }
